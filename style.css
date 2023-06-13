@@ -1,0 +1,193 @@
+ body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+ }
+ 
+html{
+	overflow-x: hidden;
+}
+ 
+
+ #banner{
+	border: 1px solid gray;
+	margin-bottom: 2rem;
+	background-color:#6D214F ;
+	height: 85vh;
+	color: white;
+	clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 90%, 74% 98%, 24% 98%, 0 91%, 0 0);
+ }
+
+ #banner .img-fluid{
+	margin-top: 20px;
+	border-radius: 20px;
+	height: 350px;
+ }
+ #banner .text{
+	margin-top: 5%;
+	padding-top: 3rem;
+	
+ }
+ #banner .reseau{
+	margin-top: 2rem;
+	gap: 1rem;
+	display: flex;
+
+ }
+ #banner .reseau .whatsapp{
+	color: #20bf6b;
+	font-size: 35px;
+ }
+ #banner .reseau .tele{
+	color: #2d98da;
+	font-size: 35px;
+ }
+ #banner .reseau a{
+	color: white;
+	font-size: 35px;
+ }
+
+
+ /***Apropos***/
+#about{
+	margin-bottom: 2rem;
+}
+#about h2{
+	margin-bottom: 2rem;
+	color: #6D214F;
+	font-weight: bold;
+}
+ 
+#about .text p{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	margin-top: 1rem;
+	border-radius: 10px;
+	font-size: 16px;
+	color: #333;
+	line-height: 1.5;
+	
+
+}
+#about img{
+    height: 360px;
+	width: 70%;
+	margin-left: 50%;
+	border-radius: 100%;
+	transform: translateX(-50%);
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+	background-position: center;
+	background-size: cover;
+	
+}
+#about .btn{
+	margin-top: 1rem;
+}
+
+ /***Service***/
+ #services{
+	margin-bottom: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	
+ }
+ #services .card-body{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ #services .tableau{
+	background: #fff;
+ }
+ #services h2{
+	margin-bottom: 2rem;
+	color: #6D214F;
+	font-weight: bold;
+ }
+
+ /***Experience***/
+
+ #experience{
+	margin-bottom: 2rem;
+ }
+ #experience .table{
+	background-color: white;
+ }
+ #experience h2{
+	margin-bottom: 2rem;
+	color: #6D214F;
+	font-weight: bold;
+ }
+ 
+ /***porfolio***/
+
+ #portfolio{
+	margin-bottom: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+ }
+ #portfolio h2{
+	margin-bottom: 2rem;
+	color: #6D214F;
+	font-weight: bold;
+ }
+ #portfolio .top{
+	margin-top: 1rem;
+ }
+ 
+ /***Contact***/
+
+ #contact{
+	margin-bottom: 2rem;
+ }
+ #contact h2{
+	margin-bottom: 2rem;
+	color: #6D214F;
+	font-weight: bold;
+
+ }
+
+ /***Contact***/
+footer .tele{
+
+	color: #2d98da;
+	font-size: 35px;
+
+}
+
+footer .link{
+
+	color: #fff;
+	font-size: 35px;
+
+}
+footer .whatsapp{
+
+	color: #20bf6b;
+	font-size: 35px;
+
+}
+ 
+ 
+
+
+ @media screen and (max-width: 780px) {
+	  #banner{
+		height: 80vh;
+	  }
+      #banner img{
+		display: none;
+	  }
+	  #banner .btn{
+		margin-top: 1rem;
+	  }
+	  #about{
+		margin-bottom: 2rem;
+	  }
+
+	  #about img{
+          height: 250px ;
+		  margin-top: 1rem;
+	  }
+
+  }
+  
